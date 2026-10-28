@@ -3,7 +3,7 @@
 Статический сайт клуба активного долголетия. Учебный проект по командной работе с Git и GitHub.
 
 ## 🌐 Ссылка на сайт
-- https://github.com/worixess/Team_site
+- https://worixess.github.io/Team_site/
 
 ## 👥 Команда
 - Тимлид — **Круглова**
