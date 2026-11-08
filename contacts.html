@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Контакты и запись — Клуб «Долголетие»</title>
+<meta name="description" content="Адрес, телефон и часы работы клуба «Долголетие». Запись на занятие через простую форму или по телефону.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Перейти к содержанию</a>
+
+<div class="top-bar">
+    <div class="wrap">
+        <span>📞 Горячая линия: <a href="tel:+78001234567">8 (800) 123-45-67</a></span>
+        <span class="hours">Ежедневно с 9:00 до 19:00</span>
+        <button type="button" class="text-size-btn" aria-pressed="false">А+ Крупный шрифт</button>
+    </div>
+</div>
+
+<header>
+    <nav class="wrap" aria-label="Основное меню">
+        <a href="index.html" class="logo"><span class="mark" aria-hidden="true">🌿</span> Клуб «Долголетие»</a>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="activities.html">Занятия</a></li>
+            <li><a href="help.html">Помощь</a></li>
+            <li><a href="contacts.html" aria-current="page">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="main">
+    <section class="hero">
+        <div class="wrap">
+            <h1>Контакты и запись</h1>
+            <p>Позвоните нам или заполните короткую форму — мы перезвоним сами и всё расскажем.</p>
+        </div>
+    </section>
+
+    <section class="block">
+        <div class="wrap">
+            <div class="contact-grid">
+                <div class="info-box">
+                    <h3>Как с нами связаться</h3>
+                    <ul class="info-list">
+                        <li><span aria-hidden="true">📞</span><span><span class="label">Телефон</span><a class="phone-big" href="tel:+78001234567">8 (800) 123-45-67</a></span></li>
+                        <li><span aria-hidden="true">✉️</span><span><span class="label">Почта</span><a href="mailto:info@dolgoletie-club.ru">info@dolgoletie-club.ru</a></span></li>
+                        <li><span aria-hidden="true">📍</span><span><span class="label">Адрес</span>г. Казань, ул. Примерная, 10<br>вход со двора, первый этаж</span></li>
+                        <li><span aria-hidden="true">🕘</span><span><span class="label">Часы работы</span>Понедельник — суббота, 9:00 — 19:00<br>Воскресенье — выходной</span></li>
+                        <li><span aria-hidden="true">🚌</span><span><span class="label">Как добраться</span>Автобусы 5, 22, 74 — остановка «Парковая».<br>От остановки 3 минуты пешком.</span></li>
+                        <li><span aria-hidden="true">♿</span><span><span class="label">Доступность</span>Есть пандус и поручни, ступеней внутри нет.</span></li>
+                    </ul>
+                </div>
+
+                <div class="info-box">
+                    <h3>Записаться на занятие</h3>
+                    <p style="color:#46525f; margin-bottom:22px;">Заполните имя и телефон — остальное не обязательно. Мы перезвоним в течение дня.</p>
+                    <form data-signup novalidate>
+                        <div class="field">
+                            <label for="name">Как вас зовут? <span class="hint">(обязательно)</span></label>
+                            <input type="text" id="name" name="name" autocomplete="name" placeholder="Например: Нина Петровна">
+                        </div>
+                        <div class="field">
+                            <label for="phone">Ваш телефон <span class="hint">(обязательно)</span></label>
+                            <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="Например: 8 912 345-67-89">
+                        </div>
+                        <div class="field">
+                            <label for="activity">На какое занятие? <span class="hint">(если уже выбрали)</span></label>
+                            <select id="activity" name="activity">
+                                <option value="">Ещё не выбрал(а) — подскажите</option>
+                                <option>Мягкая йога</option>
+                                <option>Скандинавская ходьба</option>
+                                <option>Хор «Поющие сердца»</option>
+                                <option>Компьютерные курсы</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label for="comment">Хотите что-то добавить? <span class="hint">(не обязательно)</span></label>
+                            <textarea id="comment" name="comment" placeholder="Например: удобнее звонить после обеда"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Отправить заявку</button>
+                        <p class="form-note" role="status" hidden></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="block tint">
+        <div class="wrap">
+            <div class="section-head">
+                <h2>Не любите заполнять формы?</h2>
+                <p>Это нормально. Просто позвоните — вас запишут за одну минуту.</p>
+            </div>
+            <div class="hero-actions">
+                <a class="btn" href="tel:+78001234567">Позвонить: 8 (800) 123-45-67</a>
+                <a class="btn btn-light" href="activities.html">Сначала посмотреть расписание</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="wrap">
+        <div class="footer-grid">
+            <div>
+                <h3>Клуб «Долголетие»</h3>
+                <p>Занятия, общение и помощь для людей старшего возраста.</p>
+            </div>
+            <div>
+                <h3>Разделы</h3>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="activities.html">Занятия</a></li>
+                    <li><a href="help.html">Помощь</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Связаться с нами</h3>
+                <p>Телефон: <a href="tel:+78001234567">8 (800) 123-45-67</a><br>
+                Ежедневно с 9:00 до 19:00<br>
+                г. Казань, ул. Примерная, 10</p>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 Клуб «Долголетие». Все права защищены.</div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

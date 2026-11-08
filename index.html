@@ -1,57 +1,138 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Клуб «Долголетие» — занятия и помощь для пожилых</title>
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Клуб «Долголетие» — занятия и помощь для пожилых</title>
+<meta name="description" content="Клуб активного долголетия: занятия, общение и помощь для людей старшего возраста. Запись по телефону 8 (800) 123-45-67.">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="top-bar">
-            <span>📞 Горячая линия: <a href="tel:+78001234567">8 (800) 123-45-67</a></span>
-        </div>
-        <nav>
-            <a href="index.html" class="logo">Клуб «Долголетие»</a>
-            <ul>
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="activities.html">Занятия</a></li>
-                <li><a href="help.html">Помощь</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-        </nav>
-    </header>
+<a class="skip-link" href="#main">Перейти к содержанию</a>
 
-    <main>
-        <section class="hero">
+<div class="top-bar">
+    <div class="wrap">
+        <span>📞 Горячая линия: <a href="tel:+78001234567">8 (800) 123-45-67</a></span>
+        <span class="hours">Ежедневно с 9:00 до 19:00</span>
+        <button type="button" class="text-size-btn" aria-pressed="false">А+ Крупный шрифт</button>
+    </div>
+</div>
+
+<header>
+    <nav class="wrap" aria-label="Основное меню">
+        <a href="index.html" class="logo"><span class="mark" aria-hidden="true">🌿</span> Клуб «Долголетие»</a>
+        <ul>
+            <li><a href="index.html" aria-current="page">Главная</a></li>
+            <li><a href="activities.html">Занятия</a></li>
+            <li><a href="help.html">Помощь</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="main">
+    <section class="hero">
+        <div class="wrap">
             <h1>Добро пожаловать в клуб «Долголетие»</h1>
-            <p>Занятия, общение и помощь для людей старшего возраста. Присоединяйтесь — у нас тепло и интересно.</p>
-        </section>
+            <p>Занятия, общение и помощь для людей старшего возраста.<br>У нас тепло, спокойно и всегда есть с кем поговорить. Участие бесплатное.</p>
+            <div class="hero-actions">
+                <a class="btn" href="contacts.html">Записаться на занятие</a>
+                <a class="btn btn-light" href="tel:+78001234567">Позвонить нам</a>
+            </div>
+        </div>
+    </section>
 
-        <section class="quick-links">
-            <h2>Куда перейти</h2>
+    <section class="block">
+        <div class="wrap">
+            <div class="section-head">
+                <h2>Куда перейти</h2>
+                <p>Выберите нужный раздел — всего три больших кнопки.</p>
+            </div>
             <div class="cards">
                 <a href="activities.html" class="card">
+                    <span class="icon" aria-hidden="true">🧘</span>
                     <h3>Занятия</h3>
-                    <p>Йога, ходьба, хор, компьютерные курсы</p>
+                    <p>Йога, скандинавская ходьба, хор и компьютерные курсы. Расписание на неделю.</p>
+                    <span class="more">Смотреть расписание →</span>
                 </a>
                 <a href="help.html" class="card">
+                    <span class="icon amber" aria-hidden="true">🤝</span>
                     <h3>Помощь</h3>
-                    <p>Волонтёры, доставка продуктов, соцработник</p>
+                    <p>Волонтёры, доставка продуктов и лекарств, помощь социального работника.</p>
+                    <span class="more">Чем мы поможем →</span>
                 </a>
                 <a href="contacts.html" class="card">
+                    <span class="icon green" aria-hidden="true">📍</span>
                     <h3>Контакты</h3>
-                    <p>Адрес, телефон, запись на занятие</p>
+                    <p>Адрес, телефон, часы работы и запись на занятие через простую форму.</p>
+                    <span class="more">Как нас найти →</span>
                 </a>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <footer>
-        <p>© 2025 Клуб «Долголетие». Все права защищены.</p>
-        <p>Телефон: <a href="tel:+78001234567">8 (800) 123-45-67</a></p>
-    </footer>
+    <section class="block tint">
+        <div class="wrap">
+            <div class="section-head">
+                <h2>Почему к нам приходят</h2>
+            </div>
+            <ul class="check-list">
+                <li><span>Все занятия <strong>бесплатные</strong> — платить ничего не нужно.</span></li>
+                <li><span>Группы небольшие, по 8–12 человек, занятия в спокойном темпе.</span></li>
+                <li><span>Помещение на первом этаже, без ступеней, есть лифт и пандус.</span></li>
+                <li><span>Записаться можно по телефону — или просто прийти и посмотреть.</span></li>
+            </ul>
+        </div>
+    </section>
 
-    <script src="js/main.js"></script>
+    <section class="block">
+        <div class="wrap">
+            <div class="section-head">
+                <h2>Частые вопросы</h2>
+            </div>
+            <details>
+                <summary>Нужно ли платить за занятия?</summary>
+                <div class="answer">Нет. Все занятия клуба бесплатные для жителей города старше 55 лет.</div>
+            </details>
+            <details>
+                <summary>А если я никогда не занимался спортом?</summary>
+                <div class="answer">Это не помешает. Занятия идут в спокойном темпе, а преподаватель подбирает упражнения по силам каждого.</div>
+            </details>
+            <details>
+                <summary>Как записаться, если я не умею пользоваться интернетом?</summary>
+                <div class="answer">Просто позвоните по телефону <a href="tel:+78001234567">8 (800) 123-45-67</a> с 9:00 до 19:00 — вас запишут и всё объяснят.</div>
+            </details>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="wrap">
+        <div class="footer-grid">
+            <div>
+                <h3>Клуб «Долголетие»</h3>
+                <p>Занятия, общение и помощь для людей старшего возраста.</p>
+            </div>
+            <div>
+                <h3>Разделы</h3>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="activities.html">Занятия</a></li>
+                    <li><a href="help.html">Помощь</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Связаться с нами</h3>
+                <p>Телефон: <a href="tel:+78001234567">8 (800) 123-45-67</a><br>
+                Ежедневно с 9:00 до 19:00<br>
+                г. Казань, ул. Примерная, 10</p>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 Клуб «Долголетие». Все права защищены.</div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>
